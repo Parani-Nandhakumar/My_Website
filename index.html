@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parani Nandhakumar</title>
+  <meta name="description" content="Personal portfolio / resume website." />
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">PN</div>
+        <div>
+          <div style="font-weight:700">Parani Nandhakumar</div>
+          <div class="small">QA • Test Automation • SDET</div>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#contact">Hire me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="grid">
+        <section>
+          <div class="hero card">
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div>
+                <h1>Hi, I’m Parani Nandhakumar - I test software and write code to automate testing.</h1>
+                <p>Determined and optimistic tester who makes software experience better by exploring, testing and automating.</p>
+                <div class="actions">
+                  <a class="cta" href="#contact">Contact Me</a>
+                  <a style="text-decoration:none;color:var(--muted);padding:10px 12px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.02)">Download Resume</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:18px">
+            <h3 style="margin:0 0 12px">Experience</h3>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <div>
+                <div style="font-weight:700">Senior Associate Projects — Cognizant</div>
+                <div class="small">2023 — Present · Coimbatore, India</div>
+                <div class="small">Functional testing and automating tests using playwright for Saudi and USA client</div>
+              </div>
+              <div>
+                <div style="font-weight:700">Software Test Engineer — Amdocs</div>
+                <div class="small">2019 — 2022</div>
+                <div class="small">Functional, API testing & Database testing of telecom O2C application for USA and Phillipines client</div>
+                <div class="small">Automating regression scenarios using Selenium and Java</div>
+              </div>
+              <div>
+                <div style="font-weight:700">Software Engineer — Tech Mahindra</div>
+                <div class="small">2016 — 2019</div>
+                <div class="small">SIT functional testing for UK client</div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <aside>
+          <div class="card profile">
+            <div>
+              <div style="font-weight:700">Contact</div>
+              <div class="small">Open for full‑time roles</div>
+              <div style="margin-top:10px" class="small">Email: <a href="mailto:parani777@gmail.com" style="color:var(--muted);text-decoration:none">parani777@gmail.com</a></div>
+              <div class="small">Current Location: Coimbatore, India</div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:14px">
+            <h4 style="margin:0 0 10px">Skills</h4>
+            <div class="skill-list">
+              <div class="skill">JavaScript</div>
+              <div class="skill">TypeScript</div>
+              <div class="skill">Playwright</div>
+              <div class="skill">Java</div>
+              <div class="skill">Selenium</div>
+              <div class="skill">RestAssured</div>
+              <div class="skill">Functional Testing</div>
+              <div class="skill">API Testing</div>
+              <div class="skill">SQL</div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:14px">
+            <h4 style="margin:0 0 10px">Quick links</h4>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <a href="https://github.com/Parani-Nandhakumar" style="color:var(--muted);text-decoration:none">GitHub</a>
+              <a href="https://www.linkedin.com/in/parani-nandhakumar-a4b34751/" style="color:var(--muted);text-decoration:none">LinkedIn</a>
+              <a href="#" style="color:var(--muted);text-decoration:none">Blog</a>
+            </div>
+          </div>
+
+          <div id="contact" class="card" style="margin-top:14px">
+            <h4 style="margin:0 0 10px">Contact Me</h4>
+            <form action="mailto:parani777@gmail.com" method="post" enctype="text/plain">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="message" rows="4" placeholder="Message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+
+        </aside>
+      </section>
+
+      <footer>
+        Made by Parani Nandhakumar • © <span id="year"></span>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // small script: set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
